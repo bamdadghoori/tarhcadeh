@@ -140,6 +140,15 @@ $(document).ready(function(){
         setInterval(function() { makeTimer(endTime1,d,h,m,s); }, 1000);
             setInterval(function() { makeTimer(endTime2,d2,h2,m2,s2); }, 1000);
               setInterval(function() { makeTimer(endTime2,dc,hc,mc,sc); }, 1000);
+
+              $(".blur").blur(function(){
+                if(!$(this).val()){
+                $(this).next().removeClass("blurLabel");
+             }
+             else{
+                 $(this).next().addClass("blurLabel");
+             }
+            })
 })
 
 
