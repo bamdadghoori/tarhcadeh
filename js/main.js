@@ -90,6 +90,7 @@ $('.slider').each(function() {
     $button.on('click', function() {
       move(index);
     }).appendTo('.slide_buttons');
+   
     bulletArray.push($button);
   });
   

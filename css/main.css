@@ -36,11 +36,12 @@ nav{
     direction: rtl;
     border-left: none;
     font-family: yekan;
+    border-radius:5px;
 }
 .search-section{
     direction: rtl;
    position: relative;
-  right: 40vw;
+  /* right: 10vw; */
 
 }
 #search-button{
@@ -77,13 +78,17 @@ nav{
     transition: opacity .25s;
 }
 .btn-toggle:before {
-    content: 'Off';
+    content: 'طراح';
     left: -4rem;
+    font-size: 3vh;
+    font-family: yekan;
 }
 .btn-toggle:after {
-    content: 'On';
+    content: 'کارفرما';
     right: -4rem;
     opacity: .5;
+    font-size: 3vh;
+    font-family: yekan;
 }
 .btn-toggle > .handle {
     position: absolute;
@@ -172,6 +177,7 @@ h3{
     margin-right: 1vw !important;
     color:#212529;
     margin-bottom:2vh;
+    box-shadow:2px 2px 5px #82ffd7;
 }
 .button-loc{
     text-align: center;
@@ -215,6 +221,9 @@ p{
 .h6{
     text-align: right;
 }
+.h4{
+    text-align: center;
+}
 .text-reset{
     text-align: unset;
 }
@@ -226,7 +235,7 @@ p{
 }
 footer{
     background-color: #818385 !important;
-    margin-top: 18vh;
+    margin-top: 41vh;
 }
 /* end of footer */
 .award :first-child{
@@ -312,6 +321,7 @@ aside a{
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    text-decoration:none;
   }
   
   .slide_btn.active, .slide_btn:hover {
@@ -324,37 +334,42 @@ aside a{
     margin: 0 auto;
     max-width: 940px;
     position: relative;
-    top: -340px;
+    margin-top: 62vh !important;
+    margin-bottom:-58vh !important;
   }
   
   .previous_btn {
-    bottom: 0;
-    left: 100px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: -3vw;
-  }
+   
+    width: 2vw;
+    height: 2vh;
+    position: relative;
+    top: 5.6vh;
+    background:url("../images/right-arrow.svg") no-repeat;
+    left: 46vw;
+}
+  
   
   .next_btn {
-    bottom: 0;
-    margin: auto;
-    position: absolute;
-    right: 100px;
-    right: -3vw;
-  }
+    position: relative;
+    width: 1.7vw !important;
+    height: 2.2vh;
+    background:url("../images/left-arrow.svg") no-repeat;
+    background-repeat:no-repeat;
+   
+    top: 3.5vh;
+    left: -45.2vw;
+}
+  
   
   .previous_btn, .next_btn {
-    cursor: pointer;
-    height: 65px;
-    opacity: 0.5;
+  
     -webkit-transition: opacity 0.4s ease-in-out;
     -moz-transition: opacity 0.4s ease-in-out;
     -ms-transition: opacity 0.4s ease-in-out;
     -o-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
-    width: 65px;
-    top: 12vh;
+   
+  
   }
   
   .previous_btn:hover, .next_btn:hover {
@@ -448,3 +463,42 @@ aside a{
       font-size:5vh;
       border-radius:10px;
   }
+  .second-navbar{
+      border:solid 1px;
+      padding:15px;
+      border-radius:5px;
+      width:84vw;
+      float:right;
+      position:relative;
+      right:8vw;
+      vertical-align:middle;
+      height:10vh;
+      box-shadow: 2px 2px 5px #818385;
+    }
+    .dropdown-menu{
+        background-color: #818385 !important;
+        
+    }
+    .dropdown-menu li{
+        direction: rtl;
+        float: right;
+     
+    }
+    .dropdown-menu li a{
+        text-decoration: none;
+        color: #212529 !important;
+    }
+    .dropdown-menu div:hover{
+        opacity: 0.8;
+        background-color: gray;
+    }
+    .dropdown-menu div{
+        width:12vw;
+        height: 5vh;
+        
+    }
+    .fa-bed{
+        color: #025928;
+        font-size: 3.5vh !important;
+    }
+  
