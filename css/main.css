@@ -18,11 +18,30 @@ body{
 nav{
     direction: rtl;
     font-family: yekan;
-    background-color: #818385 !important;
+   height: fit-content;
+   border-bottom: solid white 1px;
+   /* width: 80% !important; */
+   margin-top: 3vh;
+   font-size: 3vh;
 }
 .nav-link{
-    color: #303030 !important;
+    color:#3c8c30!important;
 }
+.login-link,.signup-link{
+    font-size: 3vh;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px;
+    color:#d96704 !important;
+    background-color: #022b59;
+    border-radius: 5px;
+}
+/* .my-slide hr{
+     background-color: white;
+    position: absolute;
+    top: 7vh;
+    height: 5px !important;
+    color:white;
+} */
 .second-nav-div{
     float: left;
     position: absolute;
@@ -56,12 +75,12 @@ nav{
     margin: 0 4rem;
     padding: 0;
     position: relative;
-    border: none;
-    height: 1.5rem;
+    border: solid  white 1px !important;
+    height: 1.2rem;
     width: 3rem;
-    border-radius: 1.5rem;
-    color: #6b7381;
-    background: #bdc1c8 !important;
+    border-radius: 1.5rem !important;
+  
+    background:inherit !important;
 }
 .btn-toggle:focus, .btn-toggle:focus.active, .btn-toggle.focus, .btn-toggle.focus.active {
     outline: none;
@@ -77,28 +96,31 @@ nav{
     position: absolute;
     bottom: 0;
     transition: opacity .25s;
+    color: white;
 }
 .btn-toggle:before {
     content: 'طراح';
     left: -4rem;
     font-size: 3vh;
     font-family: yekan;
+    bottom: -0.5vh !important;
 }
 .btn-toggle:after {
     content: 'کارفرما';
-    right: -4rem;
+    right: -5rem;
     opacity: .5;
     font-size: 3vh;
     font-family: yekan;
+    bottom: -1vh !important;
 }
 .btn-toggle > .handle {
     position: absolute;
-    top: 0.1875rem;
+    top: 0.1rem;
     left: 0.1875rem;
     width: 1.125rem;
-    height: 1.125rem;
+    height: 1rem;
     border-radius: 1.125rem;
-    background: #fff;
+    background:#022b59;
     transition: left .25s;
 }
 .btn-toggle.active {
@@ -119,9 +141,9 @@ nav{
 }
 .example{
     float: right;
-    left: 70vw;
+    right: 12vw;
     position: absolute;
-    top: 1vh;
+    top: 15vh;
 }
 .search-row{
     position: relative;
@@ -130,16 +152,21 @@ nav{
 }
 .my-slide{
     background: url("../images/222-1-1.jpg");
-    background-size: 100%;
+    background-size: cover;
     
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 75vh;
     position: relative;
     /* top: 10vh; */
     /* width: 70vw; */
     border-radius: 5px;
-    
+    direction: rtl;
     /* left:7vw; */
+    
+}
+.my-slide .col-md-1{
+    margin-top: 4vh;
+    font-size: 3vh;
 }
 .main{
     direction: rtl;
@@ -478,7 +505,7 @@ aside a{
       box-shadow: 2px 2px 5px #818385;
     }
     .dropdown-menu{
-        background-color: #818385 !important;
+        background-color: #d96704 !important;
         
     }
     .dropdown-menu li{
@@ -488,7 +515,7 @@ aside a{
     }
     .dropdown-menu li a{
         text-decoration: none;
-        color: #212529 !important;
+        color: #025928 !important;
     }
     .dropdown-menu div:hover{
         opacity: 0.8;
@@ -567,4 +594,7 @@ aside a{
 }
 .competition div:nth-child(2){
     font-size: 3vh;
+}
+.social-media a{
+text-decoration: none;
 }
