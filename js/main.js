@@ -149,6 +149,24 @@ $(document).ready(function(){
                  $(this).next().addClass("blurLabel");
              }
             })
+            //visit button animate
+            // setInterval(animateVisit,1000)
+            // function animateVisit(){
+            //   // alert("x")
+            //   if( $(".animate-visit").hasClass("top")){
+            //     $(".animate-visit").removeClass("top");
+            //     $(".animate-visit").fadeIn("slow");
+            //     $(".animate-visit").css({top:"0vh",opacity:1})
+            //     // $(".animate-visit").animate({top:"0vh",opacity:1})
+            //   }
+            //   else{
+            //     $(".animate-visit").addClass("top")
+            //     $(".animate-visit").animate({top:"3vh",opacity:0})
+            //   }
+           
+             
+           
+
 })
 
 
