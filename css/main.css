@@ -445,10 +445,12 @@ opacity: 0;
   
   @media only screen and (max-width: 767px) {
     .previous_btn {
-      left: 50px;
+      left: 68vw;
+      top:7vh;
     }
     .next_btn {
-      right: 50px;
+      right: 64vw;
+      top: 4.5vh;
     }
   }
 
@@ -636,4 +638,73 @@ opacity: 0;
 }
 .social-media a{
 text-decoration: none;
+}
+@media(max-width:600px){
+    .ja-baneri{
+        display: none !important;
+    }
+    #searchbox{
+        width:55vw
+    }
+    .floating-label{
+        left: 52vw;
+    }
+    input:focus ~ .floating-label{
+        left: 52vw;
+        top:-4vh;
+    }
+    .icon-image{
+        width:92vw;
+    }
+    .competition-row{
+        position: relative;
+        left: 1.5vw;
+    }
+    footer{
+        margin-top: 60vh;
+    }
+    .architect-img{
+        width: 94vw;
+        position: relative;
+        left: 1vw;
+    }
+    .directional_nav{
+        margin-top: 130vh !important;
+    }
+    .navbar-toggler{
+          position: relative;
+          /* top:-50vh */
+          background-color: #d96704 !important;
+          padding-top: 2vh !important;
+          padding-right: 1vw !important;
+    padding-left: 1vh !important;
+    left: -2vw;
+}
+    
+    nav{
+        top:-50vh;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top:9vh;
+    }
+    .navbar-toggler-icon{
+        color: white;
+        background-image: unset !important;
+    }
+    .navbar-collapse{
+        background-color: #d96704;
+        z-index: 999;
+    }
+    .dropdown-menu li{
+        width: 30vw;
+        /* float: right; */
+        text-align: center;
+    } 
+    .dropdown-menu{
+        border: none !important;
+    }
+    .visit{
+        right: 35vw;
+    }
 }
